@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/2cb25f2c39.js"></script>
     <link rel="icon" href="./assets/robot.png">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <!--items-->
             <ul class="nav-menu">
                 <li><a class="active" href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="#about">Nosotros</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Porfolio</a></li>
                 <li><a href="#">Contacto</a></li>
@@ -41,7 +41,7 @@
                     <br>Diseño web
                 </h1>
                 <p>Transforma tu visión en una web <br> de éxito y potencia tu negocio en línea.</p>
-                <a class="btn-a" href="#">Descubre tu potencial digital</a>
+                <a class="btn-a" href="https://wa.me/message/FT5IUPFPWSOFJ1" target="_blank">Descubre tu potencial digital</a>
             </div>
             <div class="img-header">
                 <img src="./assets/robot.png" alt="Logo header">
@@ -49,8 +49,8 @@
         </div>
     </header>
     <!--ABOUT-->
-    <section>
-        <div class="about container">
+    <section data-aos="fade-right" data-aos-duration="5000" data-aos-easing="ease-in-sine">
+        <div id="about" class="about container">
             <h2>Nosotros</h2>
             <p>Nos enfocamos en comprender profundamente las necesidades de nuestros clientes para ofrecer soluciones
                 tecnológicas que maximicen su marca personal. Buscamos superar expectativas con herramientas innovadoras
@@ -63,7 +63,7 @@
             <!--script-->
         </div>
         <div class="btn-container">
-            <a class="btn-b" href="#">Mas información</a>
+            <a class="btn-b" href="https://wa.me/message/FT5IUPFPWSOFJ1" target="_blank">Mas información</a>
         </div>
     </section>
     <!--SERVICES-->
@@ -72,7 +72,7 @@
             <div class="services-container">
                 <div>
                     <!--cards-->
-                    <div class="services-cards" id="services-cards">
+                    <div data-aos="flip-left" data-aos-duration="2000" class="services-cards" id="services-cards">
                         <!--script cards-->
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <p>Transformamos tu presencia en línea con soluciones integrales. Desde diseño web y marketing
                         digital hasta gestión de redes sociales y creación de contenido visual, te ayudamos a destacar y
                         alcanzar tus objetivos comerciales.</p>
-                    <a class="btn-c" href="#">Descubre nuestros servicios</a>
+                    <a class="btn-c" href="https://wa.me/message/FT5IUPFPWSOFJ1" target="_blank">Descubre nuestros servicios</a>
 
                 </div>
             </div>
@@ -95,18 +95,18 @@
                 <p class="p-txt">
                     Nuestros proyectos
                 </p>
-                </div>
-                <!---->
             </div>
-            <!--fin de container-porfolio-->
+            <!---->
+        </div>
+        <!--fin de container-porfolio-->
         </div>
         <!--fin de container-->
-    </section> 
+    </section>
     <!---->
     <footer class="footer">
         <div class="footer-sec container">
             <h2>Contacto</h2>
-            <p class="f-txt">+54 1170001025</p>
+            <p class="f-txt"><a href="https://wa.me/message/FT5IUPFPWSOFJ1" target="_blank">+541170001025</a></p>
             <p class="f-txt">matias.e.mendoza@gmail.com</p>
             <div class="content-footer">
                 <!--links-->
@@ -123,6 +123,10 @@
     <!---->
 
     <!--script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--aos library-->
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/app.js"></script>
 </body>
 
