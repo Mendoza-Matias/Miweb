@@ -68,3 +68,16 @@ model.forEach(m => {
         </div>`;
     iModels.appendChild(div);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll(".nav-menu a");
+    const checkBox = document.getElementById("check");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            if (checkBox.checked) {
+                checkBox.checked = false;
+            }
+        });
+    });
+});
